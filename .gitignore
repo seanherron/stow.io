@@ -2,6 +2,6 @@
 .DS_Store?
 images/
 images/p/
+
 !images/p
-!images/README.md
-!images/p/README.md
+!/*/README.md
