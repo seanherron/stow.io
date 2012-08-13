@@ -9,6 +9,7 @@
     </head>
     <body>
 		<div id="wrap">
+			<h1><span>stow</span>.io</h1>
 		<?php 
 		$dir = 'images/'; 
 		$files = preg_grep('/^([^.])/', scandir($dir));
