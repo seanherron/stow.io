@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+		<div id="wrap">
 		<?php 
 		$dir = 'images/'; 
 		$files = preg_grep('/^([^.])/', scandir($dir));
@@ -17,8 +18,7 @@
 		<?php 
 		} 
 		?>
-	
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		</div>
         <script>
             var _gaq=[['_setAccount','UA-34051870-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -27,14 +27,3 @@
         </script>
     </body>
 </html>
-
-
-<?php 
-$dir = 'images/'; 
-$files = preg_grep('/^([^.])/', scandir($dir));
-foreach($files as $ind_file){ 
-?> 
-<a href="/<?php echo $ind_file;?>"><img src="/<?php echo $ind_file;?>" alt="" /></a> 
-<?php 
-} 
-?>
