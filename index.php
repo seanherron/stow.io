@@ -19,6 +19,7 @@
 		<?php 
 		} 
 		?>
+		<p>By <a href="http://seanherron.com">Sean Herron</a></p>
 		</div>
         <script>
             var _gaq=[['_setAccount','UA-34051870-1'],['_trackPageview']];
